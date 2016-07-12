@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/white" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:isScrollContainer="true" android:fitsSystemWindows="true">
+
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+		<LinearLayout android:background="@color/white"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TextView android:id="@+id/header" android:layout_height="wrap_content"
+				android:background="@drawable/header_background_tall"
+				android:layout_width="fill_parent" style="@style/Text.Header"
+				android:paddingLeft="10dp" android:padding="5dp" android:text="@string/about_hydromaster"></TextView>
+
+			<TextView android:id="@+id/header" android:paddingLeft="10dp"
+				android:padding="5dp" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="@color/black" android:text="@string/about_hydromaster_1"></TextView>
+
+			<TextView android:padding="5dp" android:id="@+id/TextView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/black" android:text="@string/about_hydration_2"></TextView>
+			<TextView android:padding="5dp" android:id="@+id/TextView02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/black" android:text="@string/tip_lose_weight_3"></TextView>
+			<TextView android:padding="5dp" android:id="@+id/TextView03"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="@string/tip_lose_weight_4" android:textColor="@color/black"></TextView>
+		
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:orientation="horizontal" android:gravity="bottom|center_horizontal"
+				android:layout_gravity="bottom|center" android:layout_marginBottom="5dp"
+				android:layout_marginTop="5dp">
+		
+		
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:background="@drawable/button_white_def"
+					android:id="@+id/button_back" android:text="@string/button_back"
+					android:layout_gravity="bottom|center_horizontal" android:textColor="@color/black" android:gravity="bottom|center"></Button>
+			</LinearLayout>
+				
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

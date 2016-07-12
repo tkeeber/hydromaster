@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:paddingLeft="15dp"
+	android:paddingTop="15dp" android:background="@color/white">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingLeft="15dp"
+		android:paddingTop="15dp" android:background="@color/white"
+		android:orientation="horizontal" android:layout_marginBottom="10dp"
+		android:layout_marginRight="10dp" style="@style/Text.About">
+
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/configuration_help_title"
+			android:textColor="@color/black"></TextView>
+		
+	</LinearLayout>
+
+	<TextView android:id="@+id/developed_by"
+		android:layout_height="wrap_content" android:text="@string/configuration_help_detail"
+		android:layout_marginLeft="15dp" android:layout_width="fill_parent"
+		style="@style/Text.About" android:textColor="@color/black"
+		android:layout_marginRight="15dp"></TextView>
+
+	<TextView android:id="@+id/TextView02" android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp" android:text="@string/configuration_help_detail_2"
+		android:layout_width="fill_parent" style="@style/Text.About"
+		android:textColor="@color/black" android:layout_marginRight="15dp" />
+	<Button android:layout_height="wrap_content" android:id="@+id/closeButton"
+		android:background="@drawable/button_white_def" android:layout_marginLeft="15dp"
+		android:layout_marginTop="10dp" android:text="@string/close"
+		android:layout_width="fill_parent" android:layout_marginRight="15dp"
+		android:layout_marginBottom="10dp" android:textColor="@color/black"/>
+</LinearLayout>

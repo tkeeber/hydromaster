@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="water_facts">10 water facts</string>
+	<string name="disclaimer_text_2">Information in this application should not
+		necessarily be relied upon and should not to be construed to be
+		professional advice from us. We do not guarantee the accuracy or
+		completeness of any of the information provided, and is not
+		responsible for any loss resulting from your reliance on such
+		information.</string>
+	<string name="disclaimer_text_1">Hydromaster should be used as a guide only when
+		determining the water intake.</string>
+	<string name="disclaimer_title">Disclaimer</string>
+	<string name="about_hydration_config_excerise">Excerise cause you to lose water and salts from you
+		body that need replacing.</string>
+	<string name="about_hydration_config_weight">Your weight is a big factor in determining how much
+		water you should drink and is used as a base line on which other
+		factors are taken into account.</string>
+	<string name="about_hydration_2">Using the configuration screen you can define
+		different variables which effect the amount of you should be drinking.
+		Below is a break down of how each element effects the amount of water
+		you should drink.</string>
+	<string name="about_hydromaster_1">The goal of Hydromaster is get people thinking
+		about water, and how much they should be drinking a day.</string>
+	<string name="about_hydromaster">About Hydromaster</string>
+	<string name="incrementWater">water drank!</string>
+	<string name="show_message_again_button">Do not show this message again</string>
+	<string name="button_back">Back</string>
+	<string name="warnings_title">Warnings</string>
+	<string name="how_do_i_increase_my_water_intake">How do I increase my water intake?</string>
+	<string name="can_water_help_me_lose_weight_title">Can water help me lose weight?</string>
+	<string name="main_tick_off">Count them here:</string>
+	<string name="button_widget_drank">I\'ve drank another glass!</string>
+	<string name="hydration_main_help_details_2">Simply click on the glass to log that you have drank a glass of water. You can see how close you are to reaching your hydration target as the glass fills.</string>
+	<string name="hydration_main_help_details_1">This screen shows how much water you should be
+		drinking today and allows you to mark off when you have drank a glass.
+	</string>	
+	<string name="hydration_startup_help_title">Welcome to Hydromaster help.</string>
+	<string name="hydration_startup_help_detail">If you need help with any of the features of Hydromaster just click the question mark at the top of each page. The relative help section will be displayed for you.</string>
+	<string name="hydration_history_help_title">Hydration history help</string>
+	<string name="hydration_history_help_details">Here you can see how much water you have been drinking daily. This shows the logged water drank for each day. Use the filter at the top of the page to show use or more days.</string>
+	<string name="hydration_history_help_details_2">Note the water you have drank will only show here if you have either saved the daily total from the hydrate log screen or have the \'automatically\' save water option checked in the settings screen</string>
+	<string name="hydration_summary_help_title">Hydration breakdown help</string>
+	<string name="hydration_summary_help_details">This screen shows you a break down of how the different factors make up your daily water total. The table shows the hydration factors along with the current set values and the total water contribution in mls/oz/liters of the factor.</string>
+	<string name="hydration_main_help_details_3">You can reset the amount of water drank for a day by pressing the \'Reset\' button on in the bottom left.</string>
+	<string name="hydration_main_help_details_4">You can save the amount of water you have drunk by clicking the \'Save\' button. The water totally will be saved at the end of each day (if the option is selected in the settings screen) or you can do it manually here.</string>
+	<string name="hydration_main_help_title">Water Log Help</string>
+	<string name="hydration_factors_help_intro">There are numerous factors which determine how much water you should be drinking a day.</string>
+	<string name="hydration_factors_help_intro_2">Hydromaster lets you personalise you water needs using the factors below</string>
+	<string name="hydration_factors_help_gender_weight">Your gender and weight effect how much water is required by your body to facilitate bodily functions and effects how much water you will lose out of your body every day.</string>
+	<string name="hydration_factors_help_healthy_diet">Having a healthy diet can make up to 20% of your water in-take throughout the day. Tick this box if you eat plenty of fruit and vegetables, and have a varied diet.</string>
+	<string name="hydration_factors_help_climate">If you are in a warmer climate you need to drink more water to make up for water lost through perspiration. Colder climates also effect the amount of water required.</string>
+	<string name="hydration_factors_help_exercise">Your level of activity is one of the biggest factors of the amount of water you should drink each day. As you exercise, your body losses water through prespiration and requires more water for proper replenishment. Drinking more water will help you recover from exercise more quickly.</string>
+	<string name="hydration_factors_help_illness">Drinking water is vital when you are ill to help your body to recover. If you have diarrhea you lose more water from your body - it is vital this is replaced.</string>
+	<string name="hydration_factors_help_preg">Women who are nursing or pregnant will need to drink more water to accommodate for the additional water loss to the baby or fetus</string>
+	<string name="hydration_factors_help_alcohol">Drinking alcohol can seriously dehydrate the body and water need to be replaced as quickly as possible after drinking.</string>
+	<string name="hydration_factors_help_title">Hydration Factors Help</string>
+	<string name="configuration_help_title">Configuration Help</string>
+	<string name="button_ok">OK</string>
+	<string name="about">About</string>
+	<string name="close">close</string>
+	<string name="developed_by">Developed by Sprint22</string>
+	<string name="website">www.sprint22.com</string>
+	<string name="hydromaster_version">v1.5</string>
+	<string name="default_water_unit">ml</string>
+	<string name="default_weight_units">lb</string>
+	<string name="summary_healthy_diet">Do you have healthy diet?</string>
+	<string name="title_healthy_diet">Healthy Diet</string>
+	<string name="default_alcohol">0</string>
+	<string name="reset_drink_count">reset</string>
+	<string name="title_alcoholic">Alcohol Units</string>
+	<string name="summary_alcoholic"></string>
+	<string name="summary_water_measurement"></string>
+	<string name="title_water_measurement">Water Units</string>
+	<string name="startup_use_configuration_btn">Configure</string>
+	<string name="startup_use_default_btn">Use Default</string>
+	<string name="next_drink_time_label">Drink your next glass of water at:</string>
+	<string name="startup_introduction">Welcome to Hydromaster! This app helps you manage
+		how much water you should be drinking on a daily bases. Simply configure your hydration factors and let Hydromaster do the rest.</string>
+	<string name="startup_introduction_2">Water is your life source and you couldn\'t live
+		without it! </string>
+	<string name="startup_introduction_3">There are so many benefits to being hydrated, from
+		cutting the risk of disease to losing weight. The information section
+		of this app will tell you all about them.</string>
+	<string name="startup_calculate">We\'ve set up a number of default values so you can start getting hydrated straight away. Remember to set an alarm in the settings menu to help you remember to drink more water!</string>
+	<string name="summary_system_settings"></string>
+	<string name="configuration_help_detail">The amount of water you should be drinking is
+		determined by many factors. This configuration screen allows you to
+		tailor these factors to find the optimal amount of water you should be
+		drinking daily.</string>
+	<string name="configuration_help_detail_2">For example, more exercise in a warmer climate will
+		increase the amount of water you should drink. Hydromaster wildefault_water_unitl
+		calculate the exact amount for you!</string>
+	<string name="summary_weight_measurement"></string>
+	<string name="title_weight_measurement">Weight Units</string>
+	<string name="title_system_settings">Settings</string>
+	<string name="default_climate">moderate</string>
+	<string name="default_exercise">0</string>
+	<string name="default_weight">180.0</string>
+	<string name="default_gender">male</string>
+	<string name="summary_pregnancy_breast_feeding"></string>
+	<string name="title_pregnancy_breast_feeding">Pregnant or breast-feeding</string>
+	<string name="summary_illness_health">Do you have a fever or diarrhea?</string>
+	<string name="title_illness_health">Illness - fever or diarrhea?</string>
+	<string name="information_title">Information</string>
+	<string name="help_title">Help</string>
+	<string name="summary_start_time">Do not Alert me before: </string>
+	<string name="title_start_time">Day Start Time</string>
+	<string name="summary_end_time">Do not Alert me after:</string>
+	<string name="title_end_time">Day End Time</string>
+	<string name="title_exercise">Daily Exercise</string>
+	<string name="title_exercise_units">(mins)</string>
+	<string name="summary_climate"></string>
+	<string name="title_climate">Climate</string>
+	<string name="summary_exercise">Daily minutes of exercise</string>
+	<string name="summary_sound">Turn Sound notification on/off</string>
+	<string name="title_sound">Sound Alert</string>
+	<string name="summary_vibrate">Turn vibrate notification on/off</string>
+	<string name="title_vibrate">Vibrate</string>
+	<string name="title_outside_factors">Hydration Factors</string>
+	<string name="summary_water_notifications">Turn on/off all water notifications</string>
+	<string name="title_water_notifications">Water Notifications</string>
+	<string name="title_notifications">Notification options</string>
+	<string name="title_weight">Weight</string>
+	<string name="title_gender">Gender</string>
+	<string name="title_about_you">About you</string>
+	<string name="label_your_weight">Weight</string>
+	<string name="button_female">Female</string>
+	<string name="btn_male">Male</string>
+	<string name="how_much_water_do_i_need_title">How much water do I need a day?</string>
+	<string name="why_is_water_important_title">Why is water important?</string>
+	<string name="hydromaster">Hydromaster</string>
+	<string name="toilet_visit">Toilet Visit</string>
+	<string name="button_help">Help</string>
+	<string name="button_information">Information</string>
+	<string name="configuration_title">Configuration</string>
+	<string name="water_alarm_text">Its time for some water!</string>
+	<string name="both">Both</string>
+	<string name="stool">Stool</string>
+	<string name="urine">Urine</string>
+	<string name="app_name">Hydromaster</string>
+	<string name="new_stool">New stool</string>
+	<string name="stool_type">Type:</string>
+	<string name="sub_stool_type">Sub Stool Type:</string>
+	<string name="urine_type_header">What color is your urine?</string>
+	<string name="stool_type_header">What does your stool look like?</string>
+	<string name="time_header">When and for how long?</string>
+	<string name="morning">Morning</string>
+	<string name="evening">Evening</string>
+	<string name="mid_day">Mid Day</string>
+	<string name="night">Night</string>
+	<string name="summary_alcohol_units">Alcohol Units</string>	
+	<string name="afternoon">Afternoon</string>
+	<string name="time_of_day">Time Of Day:</string>
+	<string name="save_button">Save</string>
+	<string name="cancel_button">Cancel</string>
+	<string name="urine_status_label">Last Urine Type</string>
+	<string name="stool_status_label">Last Stool Type</string>
+	<string name="new_toilet_visit">New Toilet Visit</string>
+	<string name="current_hydration_label">Your current hydration level is </string>
+	<string name="title_automatically_save">Save amount drank</string>
+	<string name="summary_automatically_save">Automatically save your marked daily water intake</string>
+	<string name="title_automatically_save_time">Save time</string>
+	<string name="default_save_time">01:00</string>
+	<string name="summary_save_time">Automatically save at:</string>
+	<string name="history_filter">Filter by</string>	
+	<string name="tip_increase_water_intake_title">How do I increase my daily water intake?</string>
+	<string name="tip_increase_water_intake_1">Start the day with a cup of hot water with a good
+		squeeze of fresh lemon. This will give your digestive system a real
+		boost.</string>
+	<string name="tip_increase_water_intake_2">Instead of caffeine and alcohol, drink water.
+		Caffeine and alcohol act as diuretics and cause the body to lose
+		water.</string>
+	<string name="tip_increase_water_intake_3">Throughout the day have water constantly available;
+		keep a water bottle on your desk so you can top up your glass
+		throughout the day and carry a bottle of water with you when you are
+		on the go.</string>
+	<string name="tip_increase_water_intake_4">Create a daily schedule; drink a glass after
+		breakfast, one before lunch etc. You may want to track your water
+		intake, use iHydation to ensure that you drink enough water!</string>
+	<string name="tip_increase_water_intake_5">If you are cold, drink warm water instead of coffee
+		or tea which can dehydrate you.</string>
+	<string name="tip_increase_water_intake_6">Ask for a glass of water to go with your coffee and
+		tea in Cafes.</string>
+	<string name="tip_increase_water_intake_7">Drink a glass of water before and during each meal.
+	</string>
+	<string name="tip_increase_water_intake_8">Don’t forget to eat plenty of fruit and vegetables
+		as these have a high water content and will contribute to your daily
+		water intake.</string>
+	<string name="tip_why_its_important">Water makes up about two-thirds of our body weight.
+		And its important for this to be maintained because most of the
+		chemical reactions that happen in our cells need water. We also need
+		water for our blood to be able to carry nutrients around the body.
+	</string>
+	<string name="tip_how_much_water_do_i_need">A simple question with no easy answers. Studies
+		have produced varying recommendations over the years, but in truth,
+		your water needs depend on many factors, including your health, how
+		active you are and where you live. Hydromaster uses these factors to
+		determine a recommanded amount of water for you to be drinking each
+		day.</string>
+	<string name="tip_lose_weight_1">Water is the number one most important thing to
+		address when it comes to losing weight, because water actually
+		increases your bodies ability to metabolize fat. Here is how:</string>
+	<string name="tip_lose_weight_2">Your liver is the organ that deals with
+		metabolizing fat, and your kidneys deal with straining the toxins out
+		of the water you drink. However, if you do not have enough water in
+		your system already, your kidneys will not be able to do their job. In
+		this case, your body shifts some of the work over to your liver.
+	</string>
+	<string name="tip_lose_weight_3">The idea that drinking too much water or a certain
+		temperature of water will make you bloat is a myth. Your body bloats
+		when it is dehydrated because it believes that you are not going to
+		give it enough water, so it will save what is already there. The ONLY
+		way to deal with bloating is to drink more water. Bloating is a sure
+		sign that you are dehydrated.</string>
+	<string name="tip_lose_weight_4">It may be inconvenient at first because you will
+		have to pee more often, but the reason that you are running to the
+		bathroom is actually great; your body is finally letting go of all the
+		old, toxic water that its been holding onto. The water that you are
+		drinking is usually not the first water that you excrete after being
+		dehydrated. Now your body knows that you will be replacing the water,
+		so it is not panicking and storing it, it is letting go to make room
+		for the fresh, clean water you are sending in. After a few days or a
+		week, the bathroom trips will slow down and your body will get into a
+		great rhythm, which includes reduced appetite, more luminous
+		complexion, and better muscle tone, as well as a more efficient
+		metabolism. </string>
+	<string name="tip_warning_1">Increasing your water intake may cause you to have
+		to get up in the middle of the night to go to the bathroom. To avoid
+		this, you may want to stop drinking water a few hours before
+		bedtime--or make sure you visit the toilet before bed!</string>
+	<string name="tip_warning_2">It is possible to "overdose" on water. Water
+		intoxication occurs when the electrolytes in the body are so diluted
+		that they have trouble keeping the balance of water even inside and
+		outside of individual cells. What that means is that drinking too much
+		water (while not getting enough electrolytes) can cause your cells to
+		burst. If you plan on doing heavy prolonged exercise, be sure to
+		alternate sports drinks with regular water to keep your electrolytes
+		in balance. Three glasses of water to one glass of typical sugary
+		sports drink is ideal if you rely on sports drinks for electrolytes
+		during very heavy prolonged exercise, such as a marathon.</string>
+	<string name="tip_warning_3">People with some heart conditions, high blood
+		pressure or swelling of the lower legs (edema) need to avoid excess
+		water. If you have a history of kidney problems, especially if you
+		have had a transplant, consult your doctor before increasing your
+		fluid intakes.</string>
+	<string name="tip_warning_4">You shouldn\'t drink too much water while eating as
+		it dilutes your stomach acid and can cause digestion problems.
+	</string>
+	<string name="tip_warning_5">In some countries, tap water is dangerous and can
+		cause diseases such as jaundice. Make sure you know whats safe and
+		what isn\'t.</string>
+	<string name="help">Help</string>
+	<string name="hydration_history">History</string>
+	<string name="configuration">Configuration</string>
+	<string name="confirm_message">Confirm</string>
+	<string name="alarm_service_started">The alarm service has started running</string>
+	<string name="alarm_service_finished">The alarm service has finished running</string>
+	<string name="alarm_service_label">Sample Alarm Service</string>
+	<string name="disclaimer_text_3">The application content is not a substitute for
+		direct, personal, professional medical care and diagnosis. None of the
+		exercises or treatments (including products and services) mentioned at
+		in the applciation should be performed or otherwise used without
+		clearance from your physician or health care provider. The information
+		contained within is not intended to provide specific physical or
+		mental health advice, or any other advice whatsoever, for any
+		individual or company and should not be relied upon in that regard. We
+		are not medical professionals and nothing on this website should be
+		misconstrued to mean otherwise.</string>
+	<string name="water_fact_1">1) Roughly 70 percent of an adult\'s body is made up
+		of water.</string>
+	<string name="water_fact_2">2) At birth, water accounts for approximately 80
+		percent of an infant\'s body weight.</string>
+	<string name="water_fact_3">3) A healthy person can drink about three gallons
+		(48 cups) of water per day.</string>
+	<string name="water_fact_4">4) Drinking too much water too quickly can lead to
+		water intoxication. Water intoxication occurs when water dilutes the
+		sodium level in the bloodstream and causes an imbalance of water in
+		the brain.</string>
+	<string name="water_fact_5">5) Water intoxication is most likely to occur
+		during periods of intense athletic performance.</string>
+	<string name="water_fact_6">6) Soft drinks, coffee, and tea, while made up
+		almost entirely of water, also contain caffeine. Caffeine can act as a
+		mild diuretic, preventing water from traveling to necessary locations
+		in the body.</string>
+	<string name="water_fact_7">7) Pure water (solely hydrogen and oxygen atoms)
+		has a neutral pH of 7, which is neither acidic nor basic.</string>
+	<string name="water_fact_8">8) Water dissolves more substances than any other
+		liquid. Wherever it travels, water carries chemicals, minerals, and
+		nutrients with it.</string>
+	<string name="water_fact_9">9) Much more fresh water is stored under the ground
+		in aquifers than on the earth\'s surface.</string>
+	<string name="water_fact_10">10) The earth is a closed system, similar to a
+		terrarium, meaning that it rarely loses or gains extra matter. The
+		same water that existed on the earth millions of years ago is still
+		present today.</string>
+	<string name="alarm_toggle_title">Alarm </string>
+	<string name="alarm_toggle_summary">Turn alarm on or off</string>
+	<string name="alarm_settings">Alarm Settings</string>
+	<string name="summary_alarm_start_time">Do not notify me before </string>
+	<string name="title_alarm_start_time">Alarm Start Time</string>
+	<string name="default_alarm_start_time">08:00</string>
+	<string name="summary_alarm_end_time">Do not notify me after </string>
+	<string name="title_alarm_end_time">Alarm End Time</string>
+	<string name="default_alarm_end_time">21:00</string>
+	<string name="title_toggle_auto_alarm">Auto Alarm</string>
+	<string name="summary_toggle_auto_alarm">Automatically calculate alarm times?</string>
+	<string name="title_alarm_settings">Alarm settings</string>
+	<string name="title_alarm_manual_interval_time">Manual Interval alarm time</string>
+	<string name="summary_alarm_manual_interval_time">Alert me every </string>
+	<string name="default_alarm_manual_interval_time">1</string>
+	<string name="alarm_notification_title">Hydromaster water alarm!</string>
+	<string name="alarm_notification_text">Time for a glass of water</string>
+	<string name="cancel">Cancel</string>
+	<string name="title_summary">Daily summary</string>
+	<string name="hydration_menu_help_title">Below is a description of the different options available.</string>
+	<string name="help_hydrate_menu">This screens allows you to log when you have drank a glass of water</string>
+	<string name="help_hydrate_factors_menu">Set your personalised hydration factors here</string>
+	<string name="help_summary_menu">This screen shows how your hydration factors effect the water amount of water you should drink</string>
+	<string name="help_track_menu">This screen shows a history of logged water drank</string>
+	<string name="help_settings_menu">This screen allows you to configure alarms and water measurements</string>
+	<string name="help_information_menu">This screen shows useful information and facts about water.</string>
+	<string name="title_toggle_vibrate_alarm">Vibrate on alarm</string>
+	<string name="summary_toggle_vibrate_alarm"></string>
+	<string name="summary_toggle_sound_alarm"></string>
+	<string name="title_toggle_sound_alarm">Play sound on alarm</string>
+</resources>

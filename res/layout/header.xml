@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/layout_title"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_margin="5dp"
+          android:background="@drawable/rec_background" >
+
+          <LinearLayout
+              android:id="@+id/linearLayout3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true" >
+
+              <ImageButton
+                  android:id="@+id/image_comment"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@null"
+                  android:src="@drawable/icon_comment" />
+
+              <ImageButton
+                  android:id="@+id/image_id"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@null"
+                  android:src="@drawable/id_icon" />
+
+              <ImageButton
+                  android:id="@+id/image_help"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@null"
+                  android:src="@drawable/icon_question_mark" />
+          </LinearLayout>
+
+          <TextView
+              android:id="@+id/text_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:text="Hydromaster"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="@color/black" android:layout_marginTop="5dp"/>
+
+          <TextView
+              android:id="@+id/text_by"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignRight="@+id/text_title"
+              android:layout_centerVertical="true"
+              android:textColor="@color/oranges_grey"
+              android:textSize="10dp" android:layout_below="@id/text_title" android:text="@string/developed_by"/>
+
+      </RelativeLayout>
+    

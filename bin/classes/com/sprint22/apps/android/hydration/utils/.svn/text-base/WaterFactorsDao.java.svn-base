@@ -1,0 +1,23 @@
+package com.sprint22.apps.android.hydration.utils;
+
+import android.content.Context;
+
+import com.sprint22.apps.android.hydration.factors.WaterFactorsModel;
+
+public class WaterFactorsModelDao {
+
+	private static final String KEY = "waterFactorsModel";
+	private SharedPerferencesExecutor<WaterFactorsModel> sharedPerferencesExecutor;
+
+	public WaterFactorsModelDao(Context context) {
+		this.sharedPerferencesExecutor = new SharedPerferencesExecutor<WaterFactorsModel>(context);
+	}
+
+	public void save(WaterFactorsModel model) {
+		sharedPerferencesExecutor.save(KEY, model);
+	}
+	
+	public WaterFactorsModel retrieve() {
+		return sharedPerferencesExecutor.retreive(KEY, WaterFactorsModel.class);
+	}
+}

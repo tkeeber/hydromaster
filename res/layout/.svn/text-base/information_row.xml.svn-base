@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content" 
+		android:id="@+id/row_title"
+		android:textColor="@color/black"
+		android:layout_marginLeft="5dp" android:layout_marginBottom="5dp"
+		android:layout_marginRight="5dp" android:layout_width="fill_parent"
+		android:layout_marginTop="10dp" android:padding="5dp" android:text="blah" android:background="@color/white" android:textSize="20dp"/>

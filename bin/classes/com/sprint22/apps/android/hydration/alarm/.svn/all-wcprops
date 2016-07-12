@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sprint-mobile-apps/!svn/ver/49/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm
+END
+AutoAlarmCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/AutoAlarmCalculator.java
+END
+WakefulIntentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/sprint-mobile-apps/!svn/ver/36/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/WakefulIntentService.java
+END
+HydrationAlarmReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/HydrationAlarmReceiver.java
+END
+CleanUpAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sprint-mobile-apps/!svn/ver/40/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/CleanUpAlarm.java
+END
+ManualAlarmCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/ManualAlarmCalculator.java
+END
+OnBootReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/OnBootReceiver.java
+END
+AlarmCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/sprint-mobile-apps/!svn/ver/51/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/AlarmCalculator.java
+END
+SaveWaterConsumedAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/sprint-mobile-apps/!svn/ver/36/android/Hydromaster/src/com/sprint22/apps/android/hydration/alarm/SaveWaterConsumedAlarm.java
+END

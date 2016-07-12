@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<!-- This is a primitive example showing the different types of preferences 
+	available. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/title_system_settings">
+
+		<ListPreference android:summary="@string/summary_weight_measurement"
+			android:title="@string/title_weight_measurement" android:dialogTitle="@string/title_weight_measurement"
+			android:entryValues="@array/entriesvalues_list_weight_measurement"
+			android:entries="@array/entries_list_weight_measurement" android:key="list_weight_measurement_options"
+			android:defaultValue="@string/default_weight_units" />
+
+		<ListPreference android:entryValues="@array/entriesvalues_list_water_measurement"
+			android:entries="@array/entries_list_water_measurement"
+			android:title="@string/title_water_measurement" android:dialogTitle="@string/title_water_measurement"
+			android:summary="@string/summary_water_measurement" android:key="list_water_measurement_options"
+			android:defaultValue="@string/default_water_unit" />
+
+		<CheckBoxPreference android:title="@string/title_automatically_save"
+			android:key="automatically_save" android:summary="@string/summary_automatically_save"
+			android:defaultValue="true" />
+
+
+	</PreferenceCategory>
+
+		<PreferenceScreen android:title="@string/alarm_settings">
+
+		    
+			<PreferenceCategory android:title="@string/title_alarm_settings">
+
+			    
+			    
+				<CheckBoxPreference android:title="@string/alarm_toggle_title"
+					android:key="alarm_toggle" android:summary="@string/alarm_toggle_summary"
+					android:defaultValue="false" />
+				
+				<TimePickerPreference android:summary="@string/summary_alarm_start_time"
+					android:title="@string/title_alarm_start_time" android:dialogTitle="@string/title_alarm_start_time"
+					android:key="alarm_start_time" android:defaultValue="@string/default_alarm_start_time" />
+
+				<TimePickerPreference android:summary="@string/summary_alarm_end_time"
+					android:title="@string/title_alarm_end_time" android:dialogTitle="@string/title_alarm_end_time"
+					android:key="alarm_end_time" android:defaultValue="@string/default_alarm_end_time" />
+
+				<CheckBoxPreference android:title="@string/title_toggle_auto_alarm"
+					android:key="is_auto_alarm" android:summary="@string/summary_toggle_auto_alarm"
+					android:defaultValue="false" />
+											
+				<ListPreference
+					android:entryValues="@array/entriesvalues_list_alarm_manual_interval_times"
+					android:entries="@array/entries_list_alarm_manual_interval_times"
+					android:title="@string/title_alarm_manual_interval_time"
+					android:dialogTitle="@string/title_alarm_manual_interval_time"
+					android:summary="@string/summary_alarm_manual_interval_time"
+					android:key="water_alarm_manual_interval_time"
+					android:defaultValue="@string/default_alarm_manual_interval_time" />
+
+				<CheckBoxPreference android:title="@string/title_toggle_vibrate_alarm"
+					android:key="is_vibrate_alarm" android:summary="@string/summary_toggle_vibrate_alarm"
+					android:defaultValue="false"/>
+				
+				<CheckBoxPreference android:title="@string/title_toggle_sound_alarm"
+					android:key="is_sound_alarm" android:summary="@string/summary_toggle_sound_alarm"
+					android:defaultValue="true" />
+
+			</PreferenceCategory>
+
+		</PreferenceScreen>
+
+</PreferenceScreen>

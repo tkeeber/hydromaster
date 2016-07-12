@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ga_api_key">UA-27468594-2</string>
+
+  <bool name="ga_debug">false</bool>
+  <bool name="ga_dryRun">false</bool>
+  <bool name="ga_auto_activity_tracking">true</bool>
+ 
+  <!-- We want to see simple, descriptive names in the Google Analytics reports
+       instead of the canonical name for each Activity. -->
+  <string name="com.tek.apps.android.hydration.AboutActivity">About</string>
+  <string name="com.tek.apps.android.hydration.HydrationFactors">HydrationFactors</string>
+  <string name="com.tek.apps.android.hydration.HydrationHistory">HydrationHistory</string>
+  <string name="com.tek.apps.android.hydration.HydrationHome">HydrationHome</string>
+  <string name="com.tek.apps.android.hydration.HydrationMenu">HydrationMenu</string>  
+  <string name="com.tek.apps.android.hydration.SummaryActivity">HydrationSummary</string>
+  <string name="com.tek.apps.android.hydration.information.HydrationHistory">InformationMenu</string>
+  <string name="com.tek.apps.android.hydration.configuration.ConfigurationPreferences">ConfigurationPreferences</string>
+  <string name="com.tek.apps.android.hydration.help.HelpActivity">Help</string>
+      
+      
+</resources>
+

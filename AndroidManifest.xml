@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sprint22.apps.android.hydration"
+    android:versionCode="4"
+    android:versionName="20120420-4" >
+
+    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="7" />
+    
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".HydromasterMenu"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dialog boxes -->
+        <activity
+            android:label="Hydromaster"
+            android:launchMode="singleInstance"
+            android:name=".widget.WidgetOptionsActivity"
+            android:theme="@style/Dialog" />
+        <activity
+            android:label="Help"
+            android:launchMode="singleTask"
+            android:name=".help.HelpActivity"
+            android:theme="@style/Dialog" />
+        <activity
+            android:label="About"
+            android:name=".AboutActivity"
+            android:theme="@style/Dialog" />
+        <activity
+            android:label="Hydromaster startup"
+            android:launchMode="singleTask"
+            android:name=".HydrationStartup"
+            android:theme="@style/StartupDialog" />
+
+        <!-- Dialog boxes end -->
+        <activity android:name=".information.HydrationTips" />
+        <activity android:name=".information.InformationMain" />
+        <activity android:name=".SummaryActivity" />
+        <activity android:name=".HydromasterHome" />
+        <activity android:name=".HydrationHistory" />
+        <activity
+            android:label="Filter options"
+            android:name=".ui.ConsumeHistoryFilter"
+            android:theme="@style/Dialog" />
+        <activity android:name=".configuration.ConfigurationPreferences" />
+        <activity android:name=".HydrationFactors" />
+        <activity
+			android:configChanges="keyboard|keyboardHidden|orientation"
+            android:name="com.google.ads.AdActivity" />
+
+        <!-- Widget -->
+        <receiver android:name=".widget.iHydrationWidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.sprint22.apps.android.ihydration.widget.CLICK" >
+                </action>
+                <action android:name="com.sprint22.apps.android.ihydration.widget.UPDATE" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_hydration" />
+        </receiver>
+        <receiver
+            android:name=".alarm.HydrationAlarmReceiver"
+            android:process=":remote" >
+        </receiver>
+        <receiver android:name=".alarm.OnBootReceiver" >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+            </application>
+        
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+       android:targetPackage="com.sprint22.apps.android" android:label="Tests for Hydromaster" />
+</manifest>

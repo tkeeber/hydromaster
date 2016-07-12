@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/icon_blue">
+
+
+    <include layout="@layout/header"
+          android:layout_width="fill_parent"
+   		  android:layout_height="wrap_content"
+   		  android:layout_marginTop="5dp"
+   		  android:layout_marginLeft="5dp"
+   		  android:layout_marginRight="5dp"/>
+
+	<!--
+		<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/ihydration_blue"
+		android:layout_marginTop="2dp" android:layout_marginRight="2dp"
+		android:id="@+id/daily_summary_layout"
+		android:layout_marginLeft="2dp"> <ImageView
+		android:layout_width="fill_parent" android:id="@+id/title"
+		android:layout_alignParentTop="true"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="false" ></ImageView>
+	-->
+
+  <!--   <include
+        android:id="@+id/include1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+ -->
+
+	<TableLayout android:layout_height="wrap_content"
+		android:id="@+id/breakdown_rel_layout" android:layout_width="fill_parent"
+		android:background="@drawable/rec_background" android:layout_marginBottom="5dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp">
+
+	    <TableRow android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginTop="10dp" android:layout_marginLeft="10dp">
+
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/title_summary"
+	            android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="@color/black" android:textStyle="bold" android:layout_marginRight="10dp"/>
+			
+	        </TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_gravity="fill_horizontal">
+			<TextView android:id="@+id/amount_of_water_title"
+				android:layout_height="wrap_content" android:focusable="false"
+				android:focusableInTouchMode="false" android:textColor="@color/black"
+				android:layout_marginRight="5dp" android:layout_width="wrap_content"
+				android:text="250ml glasses to drink" android:padding="1dp"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_marginLeft="10dp" android:layout_below="@+id/daily_summary_title" />
+
+			<TextView android:layout_height="wrap_content"
+				android:textColor="@color/black" android:textStyle="bold"
+				android:id="@+id/amount_of_glasses" android:text="8"
+				android:layout_width="wrap_content" android:layout_alignRight="@+id/amount_of_water_title"
+				android:layout_alignParentRight="true" android:gravity="right"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_below="@+id/daily_summary_title" android:padding="1dp"
+				android:layout_marginLeft="10dp"></TextView>
+
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_gravity="fill_horizontal"
+			android:layout_marginBottom="5dp">
+
+			<TextView android:layout_height="wrap_content"
+				android:textColor="@color/black" android:id="@+id/amount_of_glasses_drank_title"
+				android:padding="1dp" android:layout_width="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_below="@+id/amount_of_water_title" android:text="Glasses drunk"
+				android:layout_marginLeft="10dp" android:layout_marginRight="10dp"></TextView>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/amount_of_glasses_drunk"
+				android:textColor="@color/black" android:textStyle="bold"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_alignRight="@+id/amount_of_glasses_drank_title"
+				android:layout_alignParentRight="true" android:layout_below="@+id/amount_of_glasses"
+				android:gravity="right" android:padding="1dp" android:text="0"
+				android:layout_marginLeft="10dp"></TextView>
+
+		</TableRow>
+	</TableLayout>
+
+  <!--   <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+         android:background="@color/black" android:layout_margin="5dp"/> -->
+
+	<!--
+		<LinearLayout android:id="@+id/button_layout"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_alignParentBottom ="true" android:gravity="center"
+		android:layout_marginTop="10dp" android:layout_height="fill_parent"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="10dp"
+		android:layout_below="@+id/waterDrankImage"> <ImageButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@+id/configuration"
+		android:id="@+id/button_config" android:background="@null"
+		android:layout_marginBottom="15dp" android:layout_marginLeft="5dp"
+		android:layout_marginTop="5dp" android:src="@drawable/configure_64"
+		android:layout_gravity="bottom|center"
+		android:layout_marginRight="10dp" /> <ImageButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@null"
+		android:id="@+id/button_info" android:layout_marginBottom="15dp"
+		android:layout_marginLeft="5dp" android:layout_marginTop=" 5dp"
+		android:src="@drawable/information_icon_64"
+		android:layout_gravity="bottom|center"
+		android:layout_marginRight="10dp" /> <ImageButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@null"
+		android:id="@+id/button_help" android:layout_marginBottom="15dp"
+		android:layout_marginLeft="5dp" android:layout_marginTop="5dp"
+		android:src="@drawable/help_icon_64"
+		android:layout_gravity="bottom|center"
+		android:layout_marginRight="10dp" /> </LinearLayout> <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/nextWaterTimeLabel" android:textColor="@color/black"
+		android:layout_marginRight="10dp"
+		android:text="@string/next_drink_time_label"
+		android:layout_gravity="center"/> <TextView android:text="blah"
+		android:layout_height="wrap_content" android:id="@+id/nextWaterTime"
+		android:textColor="@color/black" android:layout_marginRight="10dp"
+		android:layout_gravity="center" android:textSize="20dp"
+		android:textStyle="bold" android:layout_marginBottom="5dp"
+		android:layout_marginLeft="5dp" android:layout_marginTop="2dp"
+		android:layout_width="wrap_content"/>
+	-->
+
+
+	<!--
+		<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:gravity="bottom|center">
+
+		<Button android:layout_width="wrap_content"
+		android:layout_toLeftOf="@+id/waterDrankImage"
+		android:layout_centerVertical="true"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/amount_of_water_title"
+		android:background="@drawable/minus_def" android:focusable="true"
+		android:id="@+id/button_minus_def" android:layout_marginRight="15dp"
+		android:minWidth="48dp" /> <Button android:id="@+id/reset"
+		android:layout_width="wrap_content" android:textColor="@color/black"
+		android:layout_height="fill_parent"
+		android:background="@drawable/button_white_def"
+		android:text="@string/reset_drink_count"
+		android:layout_marginRight="15dp"></Button> <Button
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@+id/waterDrankImage"
+		android:layout_centerVertical="true"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/amount_of_water_title"
+		android:background="@drawable/plus_def" android:id="@+id/button_plus"
+		android:focusable="true" android:minWidth="48dp" /> </LinearLayout>
+	-->
+	
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		android:layout_width="fill_parent" android:background="@drawable/rec_background" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp">
+	
+	<TableLayout android:id="@+id/breakdown_rel_layout"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" android:shrinkColumns="0">
+
+		<TableRow android:layout_marginLeft="10dp"
+			android:layout_marginTop="10dp">
+			<TextView android:id="@+id/breakdown_title"
+			     android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_height="wrap_content" android:text="Breakdown"
+				android:textColor="@color/black" android:textStyle="bold"
+				android:layout_width="fill_parent" android:layout_marginRight="5dp"></TextView>
+		</TableRow>
+
+		<TableRow android:layout_marginRight="10dp" android:layout_marginLeft="15dp" android:layout_marginTop="5dp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Weight" android:textColor="@color/black" android:id="@+id/weight_title" android:layout_gravity="left"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/entered_weight"
+				android:text="(180lb)" android:textColor="@color/black" android:layout_gravity="left"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/effect_water_weight"
+				android:text="+2000ml"
+				android:layout_width="wrap_content" android:gravity="right" android:textColor="@color/black" android:hapticFeedbackEnabled="false" android:layout_weight="1"></TextView>
+		</TableRow>
+		<TableRow android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:layout_marginTop="2dp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/exercise_title" android:layout_below="@+id/weight_title"
+				android:text="Exercise" android:textColor="@color/black"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/entered_excerise"
+				android:text="(20 mins)" android:textColor="@color/black"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/effect_water_exercise"
+				android:text="+1240ml" android:layout_width="wrap_content"
+				android:gravity="right"
+				android:textColor="@color/black" android:layout_weight="1"></TextView>
+		</TableRow>
+		<TableRow android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:layout_marginTop="2dp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_below="@+id/exercise_title" android:layout_height="wrap_content"
+				android:id="@+id/climate_title" android:textColor="@color/black" android:text="Climate"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/entered_climate"
+				android:textColor="@color/black" android:text="(Highlands)"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/effect_water_climate"
+				android:text="+140ml" android:layout_width="wrap_content"
+				android:gravity="right"
+				android:textColor="@color/black" android:layout_weight="1"></TextView>
+		</TableRow>
+		<TableRow android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:layout_marginTop="2dp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_below="@+id/climate_title" android:layout_height="wrap_content"
+				android:textColor="@color/black"
+				android:text="Illness" android:id="@+id/illness_title"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/entered_illness"
+				android:text="(None" android:textColor="@color/black"></TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/effect_water_illness"
+				android:text="+140ml" android:layout_width="wrap_content"
+				android:gravity="right"
+				android:textColor="@color/black" android:layout_weight="1"></TextView>
+		</TableRow>
+		<TableRow android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:layout_marginTop="2dp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/pregnancy_or_brestfeeding"
+				android:layout_below="@+id/illness_title"
+				android:textColor="@color/black"
+				android:text="Pregnancy"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/entered_pregnancybrestfeeding"
+				android:text="(No)" android:textColor="@color/black"></TextView>
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/effect_water_pregnancyorbrestfeeding" android:text="+140ml"
+				android:layout_width="wrap_content" android:gravity="right" android:textColor="@color/black" android:layout_weight="1"></TextView>
+		</TableRow>
+		<TableRow android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:layout_marginTop="2dp">
+			<TextView android:layout_width="wrap_content"
+				android:textColor="@color/black"
+				android:layout_height="wrap_content" android:id="@+id/alcohole_units"
+				android:text="@string/summary_alcohol_units" android:layout_gravity="left"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/entered_alcohol_units"
+				android:text="(None)" android:textColor="@color/black" android:layout_gravity="left"></TextView>
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/effect_water_alchol_utils" android:text="+11140ml"
+				android:layout_width="wrap_content" android:gravity="right" android:textColor="@color/black" android:layout_weight="1"></TextView>
+		</TableRow>
+		<TableRow android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:layout_marginTop="2dp">
+			<TextView android:layout_width="wrap_content"
+				android:layout_below="@+id/alcohole_units" android:layout_height="wrap_content"
+				android:id="@+id/healthy_diet_title" android:text="Healthy Diet?"
+				android:textColor="@color/black"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/entered_healthy_diet"
+				android:text="(Yes)" android:textColor="@color/black"></TextView>
+			<TextView android:layout_height="wrap_content"
+				android:id="@+id/effect_water_healthy_diet" android:text="+140ml"
+				android:layout_width="wrap_content" android:gravity="right" android:textColor="@color/black" android:layout_weight="1"></TextView>
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+
+		    <TextView
+		        android:id="@+id/total_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Total"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:textColor="@color/black"
+		        android:textStyle="bold" />
+
+		    <TextView
+		        android:id="@+id/total_water"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_gravity="right"
+		        android:gravity="right"
+		        android:text="+2500ml"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:textColor="@color/black"
+		        android:textStyle="bold" android:layout_weight="1"/>
+		</TableRow>
+
+	</TableLayout>
+	
+	    <TableLayout android:id="@+id/breakdown_rel_layout"
+		android:layout_width="wrap_content" 
+		android:stretchColumns="0,1"
+		android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">	
+		
+	    	    </TableLayout>
+	    </LinearLayout>
+</LinearLayout>

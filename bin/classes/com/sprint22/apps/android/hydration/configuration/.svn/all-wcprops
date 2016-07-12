@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/sprint-mobile-apps/!svn/ver/49/android/Hydromaster/src/com/sprint22/apps/android/hydration/configuration
+END
+SPConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sprint-mobile-apps/!svn/ver/51/android/Hydromaster/src/com/sprint22/apps/android/hydration/configuration/SPConstants.java
+END
+PerferenceRetriever.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/sprint-mobile-apps/!svn/ver/51/android/Hydromaster/src/com/sprint22/apps/android/hydration/configuration/PerferenceRetriever.java
+END
+ConfigurationPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sprint-mobile-apps/!svn/ver/51/android/Hydromaster/src/com/sprint22/apps/android/hydration/configuration/ConfigurationPreferences.java
+END
+AlarmPerferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/sprint-mobile-apps/!svn/ver/51/android/Hydromaster/src/com/sprint22/apps/android/hydration/configuration/AlarmPerferences.java
+END

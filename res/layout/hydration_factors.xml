@@ -1,0 +1,290 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/icon_blue"
+        android:orientation="vertical">
+        
+        
+    <include layout="@layout/header"
+          android:layout_width="fill_parent"
+   		  android:layout_height="wrap_content"
+   		  android:layout_marginTop="5dp"
+   		  android:layout_marginLeft="5dp"
+   		  android:layout_marginRight="5dp"/>
+    
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/rec_background"
+            android:orientation="vertical"
+            android:stretchColumns="1,2" android:layout_margin="5dp" android:paddingLeft="2dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/TextViewTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:shadowColor="@color/white"
+                    android:text="@string/title_about_you"
+                    android:textColor="@color/icon_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/text_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/title_gender"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/icon_blue" />
+
+                <Spinner
+                    android:id="@+id/gender_options"
+                    style="@style/Text.HydrationFactorsOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:entries="@array/entries_list_genders"
+                    android:prompt="@string/title_gender"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/text_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/title_weight"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/icon_blue" />
+
+                <EditText
+                    android:id="@+id/edit_weight"
+                    style="@style/Text.HydrationFactorsOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="@string/title_weight"
+                    android:inputType="numberDecimal" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/text_weight_measurement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lb"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/icon_blue" />
+            </TableRow>
+
+            <TableRow >
+            </TableRow>
+        </TableLayout>
+        
+              <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/rec_background"
+        android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+            
+        
+                        <TextView
+                    android:id="@+id/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/title_outside_factors"
+                    android:textColor="@color/icon_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" android:padding="5dp"/> 
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1" android:paddingLeft="2dp">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <CheckBox
+                    android:id="@+id/option_healthy_diet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_span="3"
+                    android:text="@string/title_healthy_diet"
+                    android:textColor="@color/icon_blue"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/text_climate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/title_climate"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/icon_blue" />
+
+                <Spinner
+                    android:id="@+id/climate_options"
+                    style="@style/Text.HydrationFactorsOptions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:entries="@array/entries_list_climates"
+                    android:prompt="@string/title_climate" android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/text_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/title_exercise"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/icon_blue" />
+
+                <EditText
+                    android:id="@+id/edit_exercise"
+                    style="@style/Text.HydrationFactorsOptions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/text_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/title_exercise_units"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/icon_blue" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/option_illness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="@string/title_illness_health"
+                    android:textColor="@color/icon_blue" 
+                    android:layout_span="3"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/option_pregnancy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="@string/title_pregnancy_breast_feeding"
+                    android:textColor="@color/icon_blue"
+                    android:layout_span="3"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/text_alchol_units"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/title_alcoholic"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/icon_blue" />
+
+                <EditText
+                    android:id="@+id/edit_alcohol"
+                    style="@style/Text.HydrationFactorsOptions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:inputType="number" />
+            </TableRow>
+
+            <RelativeLayout
+                android:id="@+id/relative_Layout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_margin="5dp">
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text="@string/cancel_button"
+                    android:textColor="@color/black" android:background="@drawable/button_white_def"/>
+
+                <Button
+                    android:id="@+id/save_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/cancel_button"
+                    android:padding="10dp"
+                    android:text="@string/save_button"
+                    android:textColor="@color/black" android:background="@drawable/button_white_def" android:layout_marginLeft="10dp"/>
+            </RelativeLayout>
+        </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

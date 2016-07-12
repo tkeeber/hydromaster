@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sprint-mobile-apps/!svn/ver/49/android/Hydromaster/src/com/sprint22/apps/android/hydration/dao
+END
+WaterAlarmDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/dao/WaterAlarmDao.java
+END
+WaterFactorEffectsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/sprint-mobile-apps/!svn/ver/49/android/Hydromaster/src/com/sprint22/apps/android/hydration/dao/WaterFactorEffectsDao.java
+END
+WaterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/dao/WaterDao.java
+END
+WaterFactorsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/dao/WaterFactorsDao.java
+END

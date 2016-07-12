@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/icon_blue" >
+
+    <include
+          android:id="@+id/header"
+         layout="@layout/header"
+          android:layout_width="fill_parent"
+   		  android:layout_height="wrap_content"
+   		  android:layout_marginTop="5dp"
+   		  android:layout_marginLeft="5dp"
+   		  android:layout_marginRight="5dp"/>
+     
+    <RelativeLayout
+        android:id="@+id/layout_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/rec_background"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_below="@id/header" >
+        
+            <TextView
+            android:id="@+id/text_filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/consume_icon"
+            android:text="@string/history_filter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="14sp" 
+            android:layout_margin="10dp"/>
+        
+            
+        <Spinner
+            android:id="@+id/button_change_view"
+            style="@style/Text.HydrationFactorsOptions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:entries="@array/entries_list_filter_options"
+            android:prompt="@string/title_gender"
+             android:layout_toRightOf="@id/text_filter_title"/>
+           
+    
+  
+        <!--
+             <Button
+            android:id="@+id/button_change_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="1 Week"
+            android:textSize="14dp"
+             android:layout_toRightOf="@id/text_filter_title"/>
+        -->
+
+        <ImageView
+            android:id="@+id/consume_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_change_view"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:src="@drawable/consume_icon"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/text_history_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_change_view"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/consume_icon"
+            android:padding="2dp"
+            android:text="Indicates one glass of water dranks"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layout_filter"
+        android:layout_margin="5dp"
+        android:background="@drawable/rec_background" />
+
+    <TextView
+        android:id="@+id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layout_filter"
+        android:layout_margin="5dp"
+        android:background="@drawable/rec_background"
+        android:padding="5dp"
+        android:text="No History" />
+
+</RelativeLayout>

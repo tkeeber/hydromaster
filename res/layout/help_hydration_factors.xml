@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp" >
+
+        <LinearLayout
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp" >
+
+              <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hydration_factors_help_title"
+                android:textColor="@color/black" style="@style/Text.Help.Title">
+            </TextView>
+            
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hydration_factors_help_intro"
+                android:textColor="@color/black" >
+            </TextView>
+            
+                <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hydration_factors_help_intro_2"
+                android:textColor="@color/black" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_hydrate_help_1"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Gender and Weight"
+            android:textColor="@color/black" android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView02"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hydration_factors_help_gender_weight"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Healthy Diet"
+            android:textColor="@color/black" android:textStyle="bold"/>
+        
+           <TextView
+            android:id="@+id/TextView02"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hydration_factors_help_healthy_diet"
+            android:textColor="@color/black" />
+           
+             <TextView
+            android:id="@+id/TextView03"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Climate"
+            android:textColor="@color/black" android:textStyle="bold"/>
+        
+           <TextView
+            android:id="@+id/TextView04"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hydration_factors_help_climate"
+            android:textColor="@color/black" />
+        
+           
+            <TextView
+            android:id="@+id/TextView05"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Exercise"
+            android:textColor="@color/black" android:textStyle="bold"/>
+        
+           <TextView
+            android:id="@+id/TextView06"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hydration_factors_help_exercise"
+            android:textColor="@color/black" />
+           
+             <TextView
+            android:id="@+id/TextView07"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Illness"
+            android:textColor="@color/black" android:textStyle="bold"/>
+        
+           <TextView
+            android:id="@+id/TextView08"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hydration_factors_help_illness"
+            android:textColor="@color/black" />
+           
+            <TextView
+            android:id="@+id/TextView09"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Pregnant or Breast-feeding"
+            android:textColor="@color/black" android:textStyle="bold"/>
+        
+           <TextView
+            android:id="@+id/TextView10"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hydration_factors_help_preg"
+            android:textColor="@color/black" />
+           
+           
+            <TextView
+            android:id="@+id/TextView11"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Alcohol Units"
+            android:textColor="@color/black" android:textStyle="bold"/>
+        
+           <TextView
+            android:id="@+id/TextView12"
+            style="@style/Text.About"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hydration_factors_help_alcohol"
+            android:textColor="@color/black" />
+           
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_white_def"
+            android:text="@string/close"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</ScrollView>

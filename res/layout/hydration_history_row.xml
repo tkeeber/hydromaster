@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="@color/white" android:orientation="horizontal">
+
+	<TextView android:id="@+id/consumed_date"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textColor="@color/black" android:text="12/10/2010:" android:textStyle="bold"
+		android:padding="5dp"></TextView>
+
+	<TableLayout android:id="@+id/consume_amount_layout" android:layout_toRightOf="@id/consumed_date"
+		android:paddingLeft="2dp" android:paddingTop="5dp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@color/white" >
+
+	</TableLayout>
+
+	<LinearLayout android:id="@+id/conmsumed_details" android:layout_below="@id/consume_amount_layout"
+		android:layout_toRightOf="@id/consumed_date"
+		android:padding="2dp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@color/white"
+		android:orientation="horizontal">
+
+
+		<TextView android:text="(" android:layout_marginLeft="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/black" android:textSize="12dp" />
+
+		<TextView android:id="@+id/comsumed_amount"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/black" android:textSize="12dp" />
+
+		<TextView android:text="/" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/black"
+			android:textSize="12dp" />
+
+		<TextView android:id="@+id/predicated_daily_total"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/black" android:textSize="12dp" />
+
+		<TextView android:text="" android:id="@+id/water_measurement"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/black" android:textSize="12dp" />
+
+		<TextView android:text=")" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/black"
+			android:textSize="12dp" />
+
+	</LinearLayout>
+
+
+</RelativeLayout>

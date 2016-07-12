@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sprint-mobile-apps/!svn/ver/49/android/Hydromaster/src/com/sprint22/apps/android/hydration
+END
+AbstractActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/sprint-mobile-apps/!svn/ver/46/android/Hydromaster/src/com/sprint22/apps/android/hydration/AbstractActivity.java
+END
+HydrationFactors.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/HydrationFactors.java
+END
+HydrationHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/sprint-mobile-apps/!svn/ver/36/android/Hydromaster/src/com/sprint22/apps/android/hydration/HydrationHistory.java
+END
+HydrationStartup.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/sprint-mobile-apps/!svn/ver/46/android/Hydromaster/src/com/sprint22/apps/android/hydration/HydrationStartup.java
+END
+WaterNotifyData.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sprint-mobile-apps/!svn/ver/49/android/Hydromaster/src/com/sprint22/apps/android/hydration/WaterNotifyData.java
+END
+HydromasterMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sprint-mobile-apps/!svn/ver/47/android/Hydromaster/src/com/sprint22/apps/android/hydration/HydromasterMenu.java
+END
+AboutActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/sprint-mobile-apps/!svn/ver/36/android/Hydromaster/src/com/sprint22/apps/android/hydration/AboutActivity.java
+END
+HydrationFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/sprint-mobile-apps/!svn/ver/51/android/Hydromaster/src/com/sprint22/apps/android/hydration/HydrationFunctions.java
+END
+HydromasterHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/HydromasterHome.java
+END
+SummaryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/SummaryActivity.java
+END

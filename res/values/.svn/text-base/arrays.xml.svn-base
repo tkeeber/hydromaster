@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    
+    <!-- Used in app/menu examples -->
+    <string-array name="entries_list_genders">
+        <item>Male</item>
+        <item>Female</item>          
+    </string-array>
+
+    <!-- Used in app/menu examples -->
+    <string-array name="entryvalues_list_genders">
+        <item>male</item>
+        <item>female</item>          
+    </string-array>
+    
+    <string-array name="entries_list_exercises">
+        <item>Strenous</item>
+        <item>Active</item>
+        <item>Sedentary</item>          
+    </string-array>  
+    
+     <string-array name="entriesvalues_list_exercises">
+        <item>strenous</item>
+        <item>active</item>
+        <item>sedentary</item>          
+    </string-array>
+    
+     <string-array name="entriesvalues_list_climates">
+        <item>tropical</item>
+        <item>dry</item>
+        <item>moderate</item>
+        <item>continental</item>
+        <item>highlands</item>                
+        <item>polar</item>
+    </string-array> 
+    
+     <string-array name="entries_list_climates">
+        <item>Tropical</item>
+        <item>Dry</item>
+        <item>Moderate</item>
+        <item>Continental</item>       
+        <item>Highlands</item>  
+        <item>Polar</item>      
+    </string-array>  
+    
+      <string-array name="entriesvalues_list_illness">
+        <item>extremeillness</item>
+        <item>cold</item>
+        <item>other</item>          
+    </string-array>
+    
+     <string-array name="entries_list_illness">
+        <item>extremeillness</item>
+        <item>cold</item>
+        <item>other</item>        
+    </string-array>
+
+
+	<string-array name="entriesvalues_list_weight_measurement">
+		<item>lb</item>
+		<item>st</item>
+		<item>kg</item>
+	</string-array>
+
+	<string-array name="entries_list_weight_measurement">
+		<item>Pounds (lb)</item>
+		<item>Stone (st)</item>
+		<item>Kilograms (kg)</item>
+	</string-array>
+
+	<string-array name="entriesvalues_list_water_measurement">
+		<item>ml</item>
+		<item>l</item>
+		<item>pt</item>
+		<item>oz</item>
+	</string-array>
+
+	<string-array name="entries_list_water_measurement">
+		<item>Milliliters (ml)</item>
+		<item>Liters (l)</item>
+		<item>Pints (pt)</item>
+		<item>Ounces (oz)</item>
+	</string-array>     
+	
+	<string-array name="entries_values_save_times">
+		<item>00:00</item>
+		<item>01:00</item>
+		<item>02:00</item>
+		<item>03:00</item>
+		<item>04:00</item>
+		<item>05:00</item>
+		<item>06:00</item>
+		<item>07:00</item>
+		<item>08:00</item>
+		<item>09:00</item>
+		<item>10:00</item>
+		<item>11:00</item>
+		<item>12:00</item>
+		<item>13:00</item>
+		<item>14:00</item>
+		<item>15:00</item>
+		<item>16:00</item>
+		<item>17:00</item>
+		<item>18:00</item>
+		<item>19:00</item>
+		<item>20:00</item>
+		<item>21:00</item>
+		<item>22:00</item>
+		<item>23:00</item>
+	</string-array>     
+	
+	<string-array name="automatically_save_time_entries">
+		<item>00:00</item>
+		<item>01:00</item>
+		<item>02:00</item>
+		<item>03:00</item>
+		<item>04:00</item>
+		<item>05:00</item>
+		<item>06:00</item>
+		<item>07:00</item>
+		<item>08:00</item>
+		<item>09:00</item>
+		<item>10:00</item>
+		<item>11:00</item>
+		<item>12:00</item>
+		<item>13:00</item>
+		<item>14:00</item>
+		<item>15:00</item>
+		<item>16:00</item>
+		<item>17:00</item>
+		<item>18:00</item>
+		<item>19:00</item>
+		<item>20:00</item>
+		<item>21:00</item>
+		<item>22:00</item>
+		<item>23:00</item>
+	</string-array>  
+	
+	
+	<string-array name="entriesvalues_list_alarm_manual_interval_times">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+	</string-array>
+	
+	<string-array name="entries_list_alarm_manual_interval_times">
+		<item>1 hour</item>
+		<item>2 hours</item>
+		<item>3 hours</item>
+		<item>4 hours</item>
+		<item>5 hours</item>
+		<item>6 hours</item>
+	</string-array>   
+	
+	<string-array name="entriesvalues_list_filter_options">
+		<item>1</item>
+		<item>4</item>
+		<item>6</item>
+		<item>13</item>
+		<item>30</item>
+		<item>61</item>
+		<item>999</item>
+	</string-array>
+	
+	<string-array name="entries_list_filter_options">
+		<item>2 days</item>
+		<item>5 days</item>
+		<item>1 week</item>
+		<item>2 weeks</item>
+		<item>1 month</item>
+		<item>2 month</item>
+		<item>all</item>
+	</string-array>  
+    
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:paddingTop="5dp" android:background="@color/white"
+	android:layout_height="fill_parent" android:fitsSystemWindows="true">
+
+	<Button android:layout_height="wrap_content" android:background="@drawable/button_white_def"
+		android:layout_width="fill_parent" android:text="@string/incrementWater"
+		android:id="@+id/incrementDrankCount" android:layout_margin="8dp"></Button>
+
+	<Button android:layout_height="wrap_content" android:background="@drawable/button_white_def"
+		android:layout_width="fill_parent" android:text="@string/reset_drink_count"
+		android:id="@+id/reset" android:layout_margin="8dp"></Button>
+	<Button android:layout_height="wrap_content" android:background="@drawable/button_white_def"
+		android:layout_width="fill_parent" android:text="@string/close"
+		android:id="@+id/close" android:layout_margin="8dp"></Button>
+</LinearLayout>

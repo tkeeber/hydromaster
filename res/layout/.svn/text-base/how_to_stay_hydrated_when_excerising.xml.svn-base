@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/white" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+<LinearLayout android:background="@color/white"
+ android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+	<TextView android:id="@+id/header" android:layout_height="wrap_content"
+		android:background="@drawable/header_background_tall"
+		android:layout_width="fill_parent" style="@style/Text.Header"
+		android:paddingLeft="10dp" android:padding="5dp"
+		android:text="@string/why_is_water_important_title"></TextView>
+	<TextView android:id="@+id/header" android:paddingLeft="10dp" android:padding="5dp" android:text="@string/tip_why_its_important" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textColor="@color/black"></TextView>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

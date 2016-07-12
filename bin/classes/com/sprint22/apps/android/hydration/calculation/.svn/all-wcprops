@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/sprint-mobile-apps/!svn/ver/49/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation
+END
+CalculateWaterTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/sprint-mobile-apps/!svn/ver/50/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/CalculateWaterTask.java
+END
+HealthyEatingCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/HealthyEatingCalculatorStrategy.java
+END
+PregnancyCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/PregnancyCalculatorStrategy.java
+END
+ExerciseCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/ExerciseCalculatorStrategy.java
+END
+WeightCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/WeightCalculatorStrategy.java
+END
+IHydrationFactorCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/IHydrationFactorCalculatorStrategy.java
+END
+IllnessCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/IllnessCalculatorStrategy.java
+END
+ClimateCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/ClimateCalculatorStrategy.java
+END
+AlcoholCalculatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/sprint-mobile-apps/!svn/ver/48/android/Hydromaster/src/com/sprint22/apps/android/hydration/calculation/AlcoholCalculatorStrategy.java
+END

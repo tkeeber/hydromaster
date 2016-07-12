@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/icon_blue"
+    android:orientation="vertical" >
+           
+    <include layout="@layout/header"
+          android:layout_width="fill_parent"
+   		  android:layout_height="wrap_content"
+   		  android:layout_marginTop="5dp"
+   		  android:layout_marginLeft="5dp"
+   		  android:layout_marginRight="5dp"/>
+    
+    <TableLayout
+        android:id="@+id/TableLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/rec_background"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:paddingLeft="5dp" android:paddingTop="2dp">
+
+            <TextView
+                android:id="@+id/drink_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top|center_horizontal"
+                android:text="Glasses To Drink"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/amount_of_glasses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/drink_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="(2000ml)"
+                android:textColor="@color/oranges_grey"
+                android:textAppearance="?android:attr/textAppearanceSmall" android:layout_marginTop="3dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/drink_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_horizontal"
+                android:gravity="top|center_horizontal"
+                android:text="Glasses Drank"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+   
+            <TextView
+                android:id="@+id/amount_of_glasses_drunk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:gravity="top|center_horizontal"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/drank_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="0"
+                android:textColor="@color/oranges_grey"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/water_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rec_background" >
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/save_button"
+            android:background="@drawable/button_white_def"
+            android:padding="5dp"
+            android:text="Reset"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/cancel_button"
+            android:background="@drawable/button_white_def"
+            android:padding="5dp"
+            android:text="Save daily total"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/button_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:paddingBottom="5dp"
+            android:src="@drawable/water_glass_empty" />
+
+        <TextView
+            android:id="@+id/text_target_water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button_plus"
+            android:layout_toLeftOf="@+id/button_plus"
+            android:text="2000ml"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_last_drink_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="You last had a drink 2 hours 30 mins ago"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_water_target_reached"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_plus"
+            android:layout_below="@+id/text_last_drink_time"
+            android:layout_margin="2dp"
+            android:gravity="center_horizontal"
+            android:text="Congratulations - Target reached!"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_plus"
+            android:layout_toLeftOf="@+id/button_plus"
+            android:text="0ml"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_water_drank_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_plus"
+            android:layout_alignRight="@+id/button_save"
+            android:text="0ml"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/water_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:id="@+id/water_level_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/water_level_1"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
